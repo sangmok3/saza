@@ -70,7 +70,7 @@ cd /tomcat/webapps/ROOT/
         * 비밀번호 : 2)
 
 * **파일전송의 경우 filezila 사용하면 됨**
-
+    * scp로 전송할 경우(mac은 터미널에서 바로가능): scp ~/로컬폴더명/파일명.php sazasaza12@sazasaza12.cafe24.com:/sazasaza12/tomcat/webapps/ROOT/
 * **도커 환경구성 방법**
     * [https://shanepark.tistory.com/307](https://shanepark.tistory.com/307) - 도커 톰캣환경 설치
     * [https://shanepark.tistory.com/307](https://shanepark.tistory.com/307) - 도커 한국시간 설정
