@@ -55,7 +55,7 @@ cd /tomcat/webapps/ROOT/
 
 
 * **홈페이지 접속방법**
-    * 카페 24 호스팅 확인
+    * 카페 24 호스팅 확인 (https://www.cafe24.com/)
     * ID: sazasaza12
     * 비:  saza1q2w3e~
     * FTP,SSH,DB 비밀번호 : saza1q2w3e!
