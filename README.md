@@ -57,17 +57,17 @@ cd /tomcat/webapps/ROOT/
 * **홈페이지 접속방법**
     * 카페 24 호스팅 확인 (https://www.cafe24.com/)
          * ID: sazasaza12
-         * 비:  saza1q2w3e~
-         * FTP,SSH,DB 비밀번호 : saza1q2w3e!
+         * 비:  1)
+         * FTP,SSH,DB 비밀번호 : 2)
 
 * **ssh 접속 정보**
     * 윈도우는 putty로 접속하면 됨, Mac은 터미널에서 직접 접속 가능
         * ssh sazasaza12@sazasaza12.cafe24.com
-        * 비밀번호 : saza1q2w3e!
+        * 비밀번호 : 2)
    
     * DB - 서버는 홈페이지 로컬에 있음 (maria DB)
         * mysql -u sazasaza12 -p 
-        * 비밀번호 : saza1q2w3e!
+        * 비밀번호 : 2)
 
 * **파일전송의 경우 filezila 사용하면 됨**
 
