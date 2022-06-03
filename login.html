@@ -1,0 +1,402 @@
+<!DOCTYPE HTML>
+
+<html lang="ko">
+
+<head>
+
+	<meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>제품상세페이지</title>
+
+	<!-- Latest compiled and minified CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Google Font -->
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,300,500,700,600' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" type="text/css">
+
+    <!-- Theme Stylesheet -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/signup.js"></script>
+
+</head>
+
+<body>
+
+    <div class="top-bar">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="social pull-left">
+
+                        <ul>
+
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="action pull-right">
+
+                        <ul>
+
+                            <li><a href=""><i class="fa fa-user"></i> 로그인</a></li>
+
+                            <li><a href=""><i class="fa fa-lock"></i> 회원가입</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-4">
+
+                    <div class="logo">
+
+                        <a href="index.html">
+
+                            <img src="images/logo.png" alt="Orani E-shop">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 col-sm-5">
+
+                    <div class="search-form">
+
+                        <form class="navbar-form" role="search">
+
+                            <div class="form-group">
+
+                              <input type="text" class="form-control" placeholder="">
+
+                            </div>
+
+                            <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="navigation">
+
+        <nav class="navbar navbar-theme">
+
+          <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+
+                <span class="sr-only">Menu</span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+              </button>
+
+            </div>
+
+            <div class="shop-category nav navbar-nav navbar-left">
+
+                <!-- Single button -->
+
+                <div class="btn-group">
+
+                  <button type="button" class="btn btn-shop-category dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    상품 CATEGORY <span class="caret"></span>
+
+                  </button>
+
+                  <ul class="dropdown-menu">
+
+                    <li><a href="">생활용품</a></li>
+
+                    <li><a href="">욕실용품</a></li>
+
+                    <li><a href="">주방용품</a></li>
+
+                    <li role="separator" class="divider"></li>
+
+                    <li><a href="">소형가전</a></li>
+
+                    <li><a href="">할인상품</a></li>
+
+                  </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="navbar">
+
+              <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">베스트</a></li>
+
+                <li><a href="#">초특가</a></li>
+
+                <li><a href="#">브랜드전</a></li>
+
+                <li><a href="#">가전제품</a></li>
+
+                <li><a href="#">회사소개</a></li>
+
+                <li><a href="#">고객센터</a></li>
+
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+
+          </div><!-- /.container-fluid -->
+
+        </nav>
+
+    </div>
+
+    <div class ="login-page">
+        <div class="login-header"><h1>회원가입</h1></div>
+        <div class = "login-img">
+            <img a href="" class = "p1" src="./images/p1.png">
+            <div class = "n-p1" src="./images/p1.png"><h5>회원가입</h5></div>
+            <img a href="" class = "p2" src="./images/p2.png">
+            <div class = "n-p2" src="./images/p1.png"><h5>비밀번호 찾기</h5></div>
+        </div>
+        <div class = "login-detail1">
+            <div class="wrapper-name">
+                <div id = "n-idx"><p>아이디</p></div>
+                <div id="n-passwordError" class="error"></div>
+                <div id = "n-password"><p>비밀번호</p></div>
+                <div id = "n-passwordCheck"><p>비밀번호 확인</p></div>
+                <div id = "n-name"><p>이름</p></div>
+                <div id = "n-email"><p>이메일</p></div>
+                <div id = "n-phone"><p>휴대폰</p></div>
+                <div id = "n-email"><p>주소</p></div>
+            </div>
+            <div class="wrapper">
+                <div class="name">
+                    <input id="idx"  type="text" placeholder="아이디를 입력해 주세요.">
+                    <div id="nameError" class="error"></div>
+                </div>
+                <div class="password">
+                    <input id="password" type="password" placeholder="비밀번호를 입력해 주세요.">
+                    <div id="passwordError" class="error"></div>
+                </div>
+                <div class="passwordCheck">
+                    <input id="passwordCheck" type="password" placeholder="비밀번호를 다시 입력해 주세요.">
+                    <div id="passwordCheckError" class="error"></div>
+                </div>
+                <div class="name">
+                    <input id="name"  type="text" placeholder="이름을 입력해 주세요.">
+                    <div id="nameError" class="error"></div>
+                </div>
+                <div class="email">
+                    <input id="email" type="text" placeholder="이메일을 입력해 주세요.">
+                    <div id="emailError" class="error"></div>
+                </div>
+                <div class="phone">
+                    <input id="phone1" type="text" size="1" maxlength="3" oninput="changePhone1()"> -
+                    <input id="phone2" type="text" size="3" maxlength="4" oninput="changePhone2()"> -
+                    <input id="phone3" type="text" size="3" maxlength="4" oninput="changePhone3()">
+                </div>
+                <div class="area">
+                    <input id="area" type="text" placeholder="배송받을 주소를 입력해 주세요.">
+                    <div id="areaError" class="error"></div>
+                </div>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>        
+        </div>
+        <div class = "login-bottom">
+            <button id="signUpButton" class="btn login-btn-theme" type="submit" onclick="signUpCheck()">가입하기</button>
+            <button class="btn login-btn-theme1" type="submit">취소하기</button>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-3">
+
+                    <div class="single-widget">
+
+                        <h2 class="widget-title">기업정보</h2>
+
+                        <div class="widget-inner">
+
+                            <p>서울특별시 강남대로 111-13번지 서울빌딩</p>
+
+                            <p>Phone: (02) 310-1577</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+
+                    <div class="single-widget">
+
+                        <h2 class="widget-title">계좌번호</h2>
+
+                        <div class="widget-inner">
+
+                            <ul>
+
+                                <li><a href="">한국은행</a></li>
+
+                                <li><a href="">111-1111-1111</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+
+                    <div class="single-widget">
+
+                        <h2 class="widget-title">오시는길</h2>
+
+                        <div class="widget-inner">
+
+                            <ul>
+
+                                <li><a href="">지도</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+
+                    <div class="single-widget">
+
+                        <h2 class="widget-title">고객센터</h2>
+
+                        <div class="widget-inner">
+
+                            <ul>
+
+                                <li><a href="">sazasaza@naver.com</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright text-center">
+
+        <div class="container">
+
+            <div class="row">
+
+                <p class="copyright"> copyright by <i class="fa fa-love"></i><a
+                    href="">Sazasaza.com</a>
+</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+	<!-- jQuery Library -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<!-- Script -->
+
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>

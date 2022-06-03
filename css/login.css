@@ -1,0 +1,70 @@
+.wrapper-name{
+    height: 95%;
+    width: 15%;
+    float: left;
+}
+
+.wrapper{
+    height: 95%;
+    width: 85%;
+    float: left;
+
+}
+
+.signUp{
+    float: left;
+    width: 200px;
+}
+
+.idx,.name,.password,.passwordCheck,.phone,.email,.area{
+    text-align: left;
+}
+
+
+#idx{
+    width: 40%;
+    height: 40px;
+}
+
+#name,#password,#passwordCheck,#phone,#email{
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#area{
+    width: 40%;
+    height: 70px;
+    margin-top: 20px;
+}
+
+#n-idx{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    padding-left : 20px;
+    padding-top:10px;
+    font-weight: 600;
+}
+
+#n-name,#n-password,#n-passwordCheck,#n-phone,#n-email{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    padding-left : 20px;
+    vertical-align: middle;
+    padding-top:10px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#phone1,#phone2,#phone3{
+    width : 12.5%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+
+#n-passwordError{
+    color:#f4f4f4;
+}
